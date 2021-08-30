@@ -1,0 +1,28 @@
+body{
+    background-color: #b5d1ff;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container input{
+    padding: 7px;
+    border-radius: 50px;
+    outline: 0;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.container button{
+    margin-top: 20px;
+    padding: 7px;
+    background-color: #75aaff;
+    border: 1px solid #152a4d;
+    cursor: pointer;
+}
+
+.container button:hover{
+    background-color: #b5d0ff;
+}
