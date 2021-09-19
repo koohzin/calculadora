@@ -29,3 +29,8 @@ function multiplicar(){
     var resultado = parseInt(num1) * parseInt(num2)
     document.querySelector(".resultado").innerHTML = resultado
 }
+function limpar(){
+    var num1 = document.querySelector(".num1").value = '0'
+    var num2 = document.querySelector(".num2").value = '0'
+    document.querySelector(".resultado").innerHTML = '0'
+}
